@@ -1,8 +1,8 @@
-name: uesless-skill
+name: useful-skill
 version: 0.1.0
-description: A deliberately over-packaged skill whose entire job is to run the adjacent script.
-entrypoint: skills/uesless-skill/SKILL.md
+description: A reusable execution skill for localized script workflows.
+entrypoint: skills/useful-skill/SKILL.md
 commands:
-  - name: uesless
-    description: Run the useless skill implementation.
-    run: ./bin/uesless-skill
+  - name: useful
+    description: Run the useful skill.
+    run: ./bin/useful-skill
