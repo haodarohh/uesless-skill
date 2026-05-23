@@ -1,0 +1,8 @@
+name: uesless-skill
+version: 0.1.0
+description: A deliberately over-packaged skill whose entire job is to run the adjacent script.
+entrypoint: skills/uesless-skill/SKILL.md
+commands:
+  - name: uesless
+    description: Run the useless skill implementation.
+    run: ./bin/uesless-skill
