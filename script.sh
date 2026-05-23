@@ -2,5 +2,6 @@
 
 set -euo pipefail
 
-echo "Running useless-skill..."
-echo "This could have been a single shell command."
+# Behold: enterprise-grade local script execution.
+echo "useful-skill: executing script.sh"
+echo "useful-skill: completed"

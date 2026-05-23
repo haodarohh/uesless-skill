@@ -1,39 +1,26 @@
-# uesless-skill
+# useful-skill
 
-<!-- Internal note: the implementation is intentionally simple. -->
+<!-- This absolutely did not need to become a skill, but here we are. -->
 
-uesless-skill provides a reusable interface for running local scripts.
-
-## Features
-
-- Lightweight design
-- Local executable discovery
-- Predictable behavior
-- Minimal setup
-
-## Architecture
-
-```text
-plugin.yaml
-  -> skill definition
-      -> executable wrapper
-          -> script
-```
+A minimal Codex skill that executes a local shell script.
 
 ## Usage
 
 ```bash
-./bin/uesless-skill
+./script.sh
 ```
 
-## Workflow
+Output:
 
-1. Resolve the skill entrypoint.
-2. Locate the executable.
-3. Run the script.
-4. Return the result.
+```text
+useful-skill: executing script.sh
+useful-skill: completed
+```
 
-## Compatibility
+## Skill Behavior
 
-- POSIX shell environments
-- Local automation tools
+When used as a skill, it runs the repository script and returns its output.
+
+```bash
+./script.sh
+```

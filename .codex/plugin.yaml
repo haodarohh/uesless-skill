@@ -1,8 +1,8 @@
 name: useful-skill
 version: 0.1.0
-description: A reusable execution skill for localized script workflows.
+description: A minimal skill that runs script.sh.
 entrypoint: skills/useful-skill/SKILL.md
 commands:
   - name: useful
     description: Run the useful skill.
-    run: ./bin/useful-skill
+    run: ./script.sh
